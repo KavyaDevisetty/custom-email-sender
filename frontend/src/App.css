@@ -1,0 +1,150 @@
+/* App.css */
+.prompt-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .analytics-dashboard {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .realtime-dashboard {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+/* App.css */
+
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust the height as needed */
+  background-color: #f0f0f0; /* Optional: Add a background color */
+  /* margin-top: -30px; */
+  /* top: -50px;  */
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transform: translateY(75px); 
+}
+
+.custom-image {
+  border: 2px solid #000; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+ }  
+
+
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Remove scroll bar for the entire website */
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* index.css */
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  border-radius: 0; /* Remove the border-radius for straight corners */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0; /* Ensure the footer starts from the left edge */
+  right: 0; /* Ensure the footer extends to the right edge */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: flex-end; /* Align items to the end (right) */
+  padding-right: 20px; /* Add some padding to the right to move the text slightly */
+}
+/* index.css */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+.google-sheets-data-reader {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* Enable vertical scrolling within the container */
+}
+
+.google-sheets-data-reader table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.google-sheets-data-reader th, .google-sheets-data-reader td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.google-sheets-data-reader th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.google-sheets-data-reader tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.google-sheets-data-reader tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-container {
+  border: 1px solid #ddd; /* Optional: Add a border to the container */
+  padding: 10px; /* Optional: Add padding to the container */
+  margin-bottom: 20px; /* Add margin to the bottom to prevent footer overlap */
+}
+.get-data-button {
+  margin-left: 10px; /* Adjust the space as needed */
+}
+.spreadsheet-id-input {
+  width: 300px; /* Adjust the width as needed */
+}
